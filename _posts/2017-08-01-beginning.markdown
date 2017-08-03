@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New Beginning"
+title:  "Day 0 - Beginning"
 date:   2017-08-01 01:00:00 -0400
 categories: beginning
 ---
