@@ -1,15 +1,27 @@
 ---
 layout: post
 title:  "Day 1 - Cleaning"
-date:   2017-08-01 10:00:00 -0400
+date:   2017-08-01 23:00:00 -0400
 categories: cleaning
 ---
 
 I'm cleaning out all my garbage literally, physic and digitally from my mind to my PC, so this is being kind of a lot of work since I like to do many things in code, music, investigation, learn things, read a lot, and so on.
 
+
+{% highlight java %}
+    public static byte[] decrypt(byte[] encrypted) throws Exception {
+        Cipher cipher = Cipher.getInstance(algorithm);
+        cipher.init(Cipher.DECRYPT_MODE, getSecret());
+        return cipher.doFinal(encrypted);
+    }
+{% endhighlight %}
+
+[EncryptorHelper.java](https://raw.githubusercontent.com/tiveor/oneway/master/src/main/java/tive/security/EncryptorHelper.java){:target="_blank"}
+
+<br/>
 So, this day can be counted as day off. I have many things to put the garbage and put things back from a forgot secret place to a priority list.
 
 
 I think, I could take me a while, but we'll see.
 
-<iframe style="display:block; margin: 0 auto;" width="90%" height="320" src="http://www.youtube.com/embed/RQ9_TKayu9s" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="320" src="http://www.youtube.com/embed/RQ9_TKayu9s" frameborder="0" allowfullscreen></iframe>
