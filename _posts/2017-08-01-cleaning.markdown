@@ -12,6 +12,4 @@ So, this day can be counted as day off. I have many things to put the garbage an
 
 I think, I could take me a while, but we'll see.
 
-{:refdef: style="text-align: center;"}
-{% youtube RQ9_TKayu9s %}
-{: refdef}
+<iframe style="display:block; margin: 0 auto;" width="90%" height="320" src="http://www.youtube.com/embed/RQ9_TKayu9s" frameborder="0" allowfullscreen></iframe>
