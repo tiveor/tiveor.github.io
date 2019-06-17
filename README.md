@@ -1,3 +1,3 @@
 # AlvaroDev.com
 
-Hosting Alvaro's Personal Page 
+AlvaroDev.com, Alvaro's Personal Page
