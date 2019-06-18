@@ -34,7 +34,7 @@ permalink: /projects
 		An app to enhance photos with Bolivian Themes, you can add frames, costumes and share it with friends.
 	</div>
 	<div class="icons-app">
-		<a href="https://www.amazon.com/%C3%81lvaro-Orellana-YoBolivia/dp/B00TR6QUZ2" target="_blank"><img src="/assets/amazon.png" alt="Get it On Apple Store" class="icon-app2"/></a>
+		<a href="https://www.amazon.com/%C3%81lvaro-Orellana-YoBolivia/dp/B00TR6QUZ2" target="_blank"><img src="/assets/icons/amazon.png" alt="Get it On Apple Store" class="icon-app2"/></a>
 	</div>	
 </div>
 
@@ -47,8 +47,8 @@ permalink: /projects
 		matrix(using directed graph) that describes the price, you also can calculate before and during to estimated the price.
 	</div>
 	<div class="icons-app">
-		<a href="https://apps.apple.com/bo/app/tarifate/id932188642" target="_blank"><img src="/assets/apple.png" alt="Get it On Apple Store" class="icon-app"/></a>
-		<a href="https://play.google.com/store/apps/details?id=com.tivesoft.tarifate" target="_blank"><img src="/assets/googleplay.png" alt="Get it On Google Play Store" class="icon-app"/></a>
+		<a href="https://apps.apple.com/bo/app/tarifate/id932188642" target="_blank"><img src="/assets/icons/apple.png" alt="Get it On Apple Store" class="icon-app"/></a>
+		<a href="https://play.google.com/store/apps/details?id=com.tivesoft.tarifate" target="_blank"><img src="/assets/icons/googleplay.png" alt="Get it On Google Play Store" class="icon-app"/></a>
 	</div>	
 </div>
 
@@ -62,7 +62,7 @@ permalink: /projects
 		So then, it increasing the complexity by levels, more graphics to memorize, and so on so for.
 	</div>
 	<div class="icons-app">
-		<a href="https://play.google.com/store/apps/details?id=com.tivesoft.memorytrainer" target="_blank"><img src="/assets/googleplay.png" alt="Get it On Google Play Store" class="icon-app"/></a>
+		<a href="https://play.google.com/store/apps/details?id=com.tivesoft.memorytrainer" target="_blank"><img src="/assets/icons/googleplay.png" alt="Get it On Google Play Store" class="icon-app"/></a>
 	</div>
 </div>
 
