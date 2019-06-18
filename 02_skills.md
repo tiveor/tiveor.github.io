@@ -6,33 +6,30 @@ permalink: /skills/
 
 <div class="box-app">
 	<img src="/assets/skills/kotlin.svg" alt="Kotlin" class="img-skill"/>
-	<h4 class="title-app">Kotlin<span class="year-app">Started on 2018</span> </h4>
+	<h4 class="title-app">Kotlin<span class="year-app">From 2018</span></h4>
 	<div class="desc-skill">
-		<ul>
-			<li>Object Oriented and Functional Programming - Lambdas - Type System</li>
-			<li>Null Safety - High Order, Extension, Inline functions - Less boilerplate code (Java)</li>
-			<li>Android Apps - Translate from Java to Kotlin - New Apps in clean Kotlin only</li>
-			<li>
-				Gradle - IntelliJ IDEA - Android Studio -
-				<a href="http://nilhcem.com/swift-is-like-kotlin/" target="_blank">Swift like Kotlin</a> -
-				<a href="https://github.com/KotlinBy/awesome-kotlin" target="_blank">Awesome Kotlin</a>
-			</li>
-		</ul>		
-		Libraries: <a href="https://github.com/ReactiveX/RxKotlin" target="_blank">RxKotlin</a>
+		Object Oriented and Functional Programming, Lambdas, Type System, Null Safety, High Order, Extension, Inline functions, Less boilerplate code (Java), 
+		Android Apps, Translate from Java to Kotlin, New Apps in clean Kotlin only, Gradle, IntelliJ IDEA, Android Studio,
+		<a href="http://nilhcem.com/swift-is-like-kotlin/" target="_blank">Swift like Kotlin</a>.
+		<br/><br/>		
+
+		Libraries: <a href="https://github.com/KotlinBy/awesome-kotlin" target="_blank">Awesome Kotlin</a> - <a href="https://github.com/ReactiveX/RxKotlin" target="_blank">RxKotlin</a>
 	</div>
 </div>
 
 <div class="box-app">
 	<img src="/assets/skills/swift.png" alt="Swift" class="img-skill"/>
-	<h4 class="title-app">Swift<span class="year-app">Started on 2015</span> </h4>
+	<h4 class="title-app">Swift<span class="year-app">From 2015</span> </h4>
 	<div class="desc-skill">
-		<ul>
-			<li>Object Oriented and Functional Programming - Immutability - Property Observers</li>
-			<li>Type safety and inference - First Class Functions - Less boilerplate code (Objetive-C)</li>
-			<li>iOS Apps - Translate from Object-C to Swift - New Apps in clean Swift only</li>
-			<li>CocoaPods - Swift Package Manager - XCode - SpriteKit - Core Data - <a href="https://github.com/matteocrippa/awesome-swift" target="_blank">Awesome Swift</a></li>
-		</ul>
-		Libraries: <a href="https://github.com/Alamofire/Alamofire" target="_blank">Alamofire</a> -
+		Object Oriented and Functional Programming, Immutability, Property Observers,
+		Type safety and inference, First Class Functions, Less boilerplate code (Objetive-C),
+		iOS Apps, Translate from Object-C to Swift, New Apps in clean Swift only,
+		CocoaPods, Swift Package Manager, XCode, SpriteKit, Core Data.
+		<br/><br/>		
+
+		Libraries: 
+		<a href="https://github.com/matteocrippa/awesome-swift" target="_blank">Awesome Swift</a> -
+		<a href="https://github.com/Alamofire/Alamofire" target="_blank">Alamofire</a> -
 		<a href="https://github.com/danielgindi/Charts" target="_blank">Charts</a> - 
 		<a href="https://firebase.google.com/docs/ios/setup" target="_blank">Firebase</a> - 
 		<a href="https://github.com/hackiftekhar/IQKeyboardManager" target="_blank">IQKeyboardManager</a> - 
@@ -53,15 +50,17 @@ permalink: /skills/
 
 <div class="box-app">
 	<img src="/assets/skills/ruby.png" alt="Ruby" class="img-skill"/>
-	<h4 class="title-app">Ruby<span class="year-app">Started on 2013</span> </h4>
+	<h4 class="title-app">Ruby<span class="year-app">From 2013</span> </h4>
 	<div class="desc-skill">
-		<ul>
-			<li>Object Oriented and Functional Programming - Generators - TDD - BDD</li>
-			<li>Block and Lambdas - BCrypt - ActiveRecord - PostgreSQL - MySQL - SQLite</li>
-			<li>Sass - Uglifier - JQuery - TurboLinks - Underscore - JBuilder - Scaffold</li>
-			<li>Gemfile - Rake - Puma - Ruby on Rails - Ruby Mine - <a href="https://github.com/markets/awesome-ruby" target="_blank">Awesome Ruby</a></li>
-		</ul>
-		Libraries: <a href="https://github.com/activeadmin/activeadmin" target="_blank">Active Admin</a> -
+		Object Oriented and Functional Programming, Generators, TDD, BDD,
+		Block and Lambdas, BCrypt, ActiveRecord, PostgreSQL, MySQL, SQLite,
+		Sass, Uglifier, JQuery, TurboLinks, Underscore, JBuilder, Scaffold,
+		Gemfile, Rake, Puma, Ruby on Rails, Ruby Mine.
+		<br/><br/>
+
+		Libraries: 
+		<a href="https://github.com/markets/awesome-ruby" target="_blank">Awesome Ruby</a> -
+		<a href="https://github.com/activeadmin/activeadmin" target="_blank">Active Admin</a> -
 		<a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> - 
 		<a href="https://fontawesome.com/" target="_blank">FontAwesome</a> - 
 		<a href="https://github.com/plataformatec/devise" target="_blank">Devise</a> - 
@@ -76,7 +75,6 @@ permalink: /skills/
 		<a href="https://github.com/stympy/faker" target="_blank">Faker</a> -
 		<a href="https://github.com/teamcapybara/capybara" target="_blank">Capybara</a> -
 		<a href="https://github.com/newrelic/rpm" target="_blank">New Relic</a> -
-		<a href="https://github.com/newrelic/rpm" target="_blank">New Relic</a> -
 		<a href="https://github.com/whomwah/rqrcode" target="_blank">rQRCode</a> -
 		<a href="https://github.com/prawnpdf/prawn" target="_blank">Prawn</a> -
 		<a href="https://github.com/mileszs/wicked_pdf" target="_blank">Wicked PDF</a> -
@@ -87,15 +85,17 @@ permalink: /skills/
 
 <div class="box-app">
 	<img src="/assets/skills/android.png" alt="Android" class="img-skill"/>
-	<h4 class="title-app">Android<span class="year-app">Started on 2011</span> </h4>
+	<h4 class="title-app">Android<span class="year-app">From 2011</span> </h4>
 	<div class="desc-skill">
-		<ul>
-			<li>Android Studio - JDK y Android SDK - JetPack - Gradle - Proguard - KTX</li>
-			<li>VirtualBox - Genymotion - Git - Source Tree - Analytics - Push Notifications</li>
-			<li>AsyncTasks - Data Management - GUI and Layouts - Sensors and Geo-Location</li>
-			<li>Backend Services - Multimedia - TTS - STT - Material Design - <a href="https://github.com/JStumpp/awesome-android" target="_blank">Awesome Android</a></li>
-		</ul>			
-		Libraries: <a href="https://github.com/square/retrofit" target="_blank">Retrofit</a> -
+		Android Studio, JDK y Android SDK, JetPack, Gradle, Proguard, KTX,
+		VirtualBox, Genymotion, Git, Source Tree, Analytics, Push Notifications,
+		AsyncTasks, Data Management, GUI and Layouts, Sensors and Geo-Location
+		Backend Services, Multimedia, TTS, STT, Material Design.
+		<br/><br/>
+
+		Libraries: 
+		<a href="https://github.com/JStumpp/awesome-android" target="_blank">Awesome Android</a> -
+		<a href="https://github.com/square/retrofit" target="_blank">Retrofit</a> -
 		<a href="https://github.com/pardom-zz/ActiveAndroid" target="_blank">ActiveAndroid</a> - 
 		<a href="https://github.com/greenrobot/greenDAO" target="_blank">GreenDAO</a> - 
 		<a href="https://github.com/square/picasso" target="_blank">Picasso</a> - 
@@ -114,28 +114,27 @@ permalink: /skills/
 
 <div class="box-app">
 	<img src="/assets/skills/javascript.jpg" alt="Javascript" class="img-skill"/>
-	<h4 class="title-app">Javascript &#8594; TypeScript<span class="year-app">Started on 2008</span> </h4>
+	<h4 class="title-app">Javascript<span class="year-app">From 2008</span> </h4>
 	<div class="desc-skill">
-		<ul>
-			
-			<li>Clousures - Promises - Non-nullable types - </li>
-			<li>Bootstrap - Material Design - Prettier - GraphQL - Chart.js - jsPDF - RxJs</li>
-			<li>Node.js - Express - MongoDB - Firebase -  NPM - Bower - Angular - React</li>
-			<li>Moment - d3 - isual Studio Code - <a href="https://github.com/sorrycc/awesome-javascript" target="_blank">Awesome Javascript</a></li>
-		</ul>	
+			TypeScript, Clousures, Promises, Non-nullable types, Bootstrap, Material Design,
+			Prettier, GraphQL, Chart.js, jsPDF, RxJs, Node.js, Express, MongoDB, Firebase, NPM, Bower,
+			Angular, React, Ionic, Moment, d3, Visual Studio Code.
+			<br/><br/>
+			Libraries:
+			<a href="https://github.com/sorrycc/awesome-javascript" target="_blank">Awesome Javascript</a>
 	</div>
 </div>
 
 <div class="box-app">
 	<img src="/assets/skills/java.png" alt="Java" class="img-skill"/>
-	<h4 class="title-app">Java<span class="year-app">Started on 2004</span> </h4>
+	<h4 class="title-app">Java<span class="year-app">From 2004</span> </h4>
 	<div class="desc-skill">
-		<ul>
-			<li>Object Oriented Programming - JVM - Code Clean - Design Patterns</li>
-			<li>IntelliJ IDEA - Gradle - Maven - Ant - Compile Once, Run anywhere - Reflection</li>
-			<li>JavaEE - Spring - Struts - Hibernate - Polymorphism - Generics - Garbage Collector</li>
-			<li>Lucene - Solr - JDBC - Bitbucket - <a href="https://github.com/akullpp/awesome-java" target="_blank">Awesome Java</a></li>
-		</ul>
+		Object Oriented Programming, JVM, Code Clean, Design Patterns, Refactoring,
+		IntelliJ IDEA, Gradle, Maven, Ant, Compile Once - Run anywhere, Reflection,
+		JavaEE, Spring, Struts, Hibernate, JPA, Polymorphism, Generics, Garbage Collector,
+		Lucene, Solr, JDBC.
+		<br/><br/>
+		Libraries: <a href="https://github.com/akullpp/awesome-java" target="_blank">Awesome Java</a>
 	</div>
 </div>
 

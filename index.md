@@ -23,41 +23,9 @@ layout: default
 <div class="line"></div>
 
 ## Skills Summary
-<table class="home-table">
-	<tr>
-		<td>Mobile Developer</td>
-		<td>Web Developer</td>
-		<td>Code Reviewer</td>
-		<td>Software Architect</td>
-	</tr>	
-	<tr>
-		<td>
-			Android<br/>
-			iOS<br/>
-			Hybrid<br/>
-		</td>
-		<td>
-			Java<br/>
-			Ruby<br/>
-			Javascript<br/>
-		</td>
-		<td>
-			Version Control System<br/>
-			Open Source<br/>
-			Data Analysis<br/>
-		</td>
-		<td>
-			Design Patterns<br/>			
-			Continuos Integration<br/>
-			From 0 To Production<br/>
-		</td>
-	</tr>	
-	<tr>
-		<th colspan="4">
-			Senior Software Engineer
-		</th>
-	</tr>		
-</table>
+<div style="text-align:center;">
+	<img id="skills_summary" src="/assets/skills/skills_summary.png" alt="Skills"/>
+</div>
 <a href="/skills" style="float:right; font-size: 11px;">See all Skills</a>
 
 <br style="clear:both;"/>

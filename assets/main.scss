@@ -56,12 +56,12 @@
 	height: 100px;
 	width: 100px;
 	float: left;
-	margin: 0 40px 20px 10px;
+	margin: 10px 40px 20px 10px;
 	clear: both;
 }
 
 .img-certification {
-	width: 400px;
+	width: 250px;
 	float: left;
 	margin: 0 40px 20px 0;
 	clear: both;	
@@ -90,7 +90,8 @@
 .desc-skill {
 	bottom-border: 1px solid #ccc;
 	text-align: left;
-	font-size: 0.9em;	
+	font-size: 0.8em;	
+
 }
 
 
@@ -111,14 +112,16 @@
 	background-color: #F6F6F6;
 }
 
-
 .box-certification {
 	border-top: 1px dashed #ccc;
 	margin: 1px;
 	clear: both;
-	padding: 40px 10px 40px 0;
+	padding: 30px 10px 40px 0;
 }
 
+.box-certification:nth-child(even) {
+	background-color: #F6F6F6;	
+}
 
 .year-app {
 	float: right;
@@ -210,6 +213,16 @@
 	float: right;
 	color: #999;
 	font-size: 0.8em;
+}
+
+#skills_summary {
+	max-width: 450px;
+	width: 95%;
+}
+
+.credential {
+	color: #444;
+	font-size: 0.9em;
 }
 
 
