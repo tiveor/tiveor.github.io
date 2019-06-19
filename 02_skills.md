@@ -116,9 +116,9 @@ permalink: /skills/
 	<img src="/assets/skills/javascript.jpg" alt="Javascript" class="img-skill"/>
 	<h4 class="title-app">Javascript<span class="year-app">From 2008</span> </h4>
 	<div class="desc-skill">
-			TypeScript, Clousures, Promises, Non-nullable types, Bootstrap, Material Design,
+			Clousures, Promises, Non-nullable types, Bootstrap, Material Design,
 			Prettier, GraphQL, Chart.js, jsPDF, RxJs, Node.js, Express, MongoDB, Firebase, NPM, Bower,
-			Angular, React, Ionic, Moment, d3, Visual Studio Code.
+			Angular, React, Ionic, Titanium, TypeScript, Nativescript, Moment, d3, Visual Studio Code.
 			<br/><br/>
 			Libraries:
 			<a href="https://github.com/sorrycc/awesome-javascript" target="_blank">Awesome Javascript</a>

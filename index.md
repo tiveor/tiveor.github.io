@@ -24,14 +24,14 @@ layout: default
 
 ## Skills Summary
 <div style="text-align:center;">
-	<img id="skills_summary" src="/assets/skills/skills_summary.png" alt="Skills"/>
+	<a href="/assets/skills/skills_summary.png" target="_blank"><img id="skills_summary" src="/assets/skills/skills_summary.png" alt="Skills"/></a>
 </div>
 <a href="/skills" style="float:right; font-size: 11px;">See all Skills</a>
 
 <br style="clear:both;"/>
 <div class="line"></div>
 
-## Latest Projects
+## Featured Projects
 
 <div class="box-home">
 	<img src="/assets/apps/memorytrainer.png" alt="Memory Trainer" class="img-home-app"/>
@@ -49,8 +49,8 @@ layout: default
 </div>
 
 <div class="box-home">
-	<img src="/assets/apps/swcochabamba.jpg" alt="SWCochabamba" class="img-home-app"/>
-	<span class="box-legend">SWCochabamba</span>
+	<img src="/assets/apps/skillstester.png" alt="SWCochabamba" class="img-home-app"/>
+	<span class="box-legend">Skills Tester</span>
 </div>
 
 <a href="/projects" style="float:right; font-size: 11px;">See all Projects</a>

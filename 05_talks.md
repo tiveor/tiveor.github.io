@@ -2,6 +2,7 @@
 layout: page
 title: Talks
 permalink: /talks/
+exclude: true
 ---
 
 <div class="box-talk">

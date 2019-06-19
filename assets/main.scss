@@ -72,7 +72,7 @@
 
 .img-course {
 	width: 260px;
-	max-height: 150px;
+	height: 150px;
 	float: left;
 	margin: 0 40px 20px 0;
 	clear: both;	
@@ -164,7 +164,9 @@
 }
 
 .icons-app {
-	float:right;	
+	float:right;
+	font-size: 0.7em;
+	color: #999999;	
 }
 
 .icon-app {
@@ -258,6 +260,7 @@
 
 .img-course-link {
 	width: 24px;
+	padding-right: 12px;
 }
 
 .course-links {
@@ -280,6 +283,11 @@
 	width: auto;
 }
 
+.desc-tech {
+	padding-top: 24px;
+	color: #555;
+	font-size: 0.7em;
+}
 
 @media screen and (max-width: 600px){
 	

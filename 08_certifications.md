@@ -2,6 +2,7 @@
 layout: page
 title: Certifications
 permalink: /certifications/
+exclude: true
 ---
 
 <div class="box-certification">

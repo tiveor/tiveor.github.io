@@ -11,7 +11,9 @@ relative_url: common.css
 &Aacute;lvaro Orellana is a Senior Software Engineer with several years of professional experience (10+). He has been working on challenging projects and startups worldwide for outsourcing companies and local/remote teams like programmer, full-stack developer, team lead, code skills trainer, consultant, code reviewer, manager and software architect.
 </p>
 <br/>
-
+The <a href="/certifications">Certifications</a> that I earned.<br/>
+The <a href="/talks">Talks</a> that I presented.<br/>
+<br/><br/>
 Get in Touch:<br/>
 
 <a href="mailto:tiveor@gmail.com"><img src="/assets/icons/mail-logo.svg" class="img-contact"/></a>
