@@ -7,8 +7,11 @@
 .img-circular {
 	width: 200px;
  	height: 200px;
-	background-image: url('https://avatars0.githubusercontent.com/u/982787');
-	background-size: cover;
+	background-image: url('me.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #000000;
 	display: block;
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
@@ -67,10 +70,23 @@
 	clear: both;	
 }
 
+.img-course {
+	width: 260px;
+	max-height: 150px;
+	float: left;
+	margin: 0 40px 20px 0;
+	clear: both;	
+}
+
 .desc-certification {
 	text-align: left;
 	font-size: 0.9em;
 	padding-top: 20px;	
+}
+
+.desc-course {
+	text-align: left;
+	font-size: 0.8em;
 }
 
 .img-app {
@@ -95,7 +111,6 @@
 }
 
 
-
 .title-app {
 	font-size: 1em;
 }
@@ -104,7 +119,7 @@
 	border-top: 1px dashed #ccc;
 	margin: 1px;
 	clear: both;
-	padding: 40px 10px 40px 0;
+	padding: 24px 10px 24px 0;
 	min-height: 166px;	
 }
 
@@ -116,10 +131,21 @@
 	border-top: 1px dashed #ccc;
 	margin: 1px;
 	clear: both;
-	padding: 30px 10px 40px 0;
+	padding: 24px 10px 36px 0;
 }
 
 .box-certification:nth-child(even) {
+	background-color: #F6F6F6;	
+}
+
+.box-course {
+	border-top: 1px dashed #ccc;
+	margin: 1px;
+	clear: both;
+	padding: 24px 10px 36px 0;
+}
+
+.box-course:nth-child(even) {
 	background-color: #F6F6F6;	
 }
 
@@ -228,6 +254,30 @@
 .img-contact {
 	width: 40px;
 	margin: 10px;
+}
+
+.img-course-link {
+	width: 24px;
+}
+
+.course-links {
+	float:right;
+}
+
+.title-course {
+	font-size: 1.25em;
+	font-weight: bold;
+	display:block;
+	margin: 0 0 12px 0;
+}
+
+.box-talk {
+	border-top: 1px dashed #ccc;
+    padding: 20px 0px 0px 0px;
+}
+
+.table-talk {
+	width: auto;
 }
 
 

@@ -19,6 +19,7 @@ Get in Touch:<br/>
 <a href="https://github.com/tiveor" target="_blank"><img src="/assets/icons/github-logo.svg" class="img-contact"/></a>
 <a href="https://www.facebook.com/AlvaroDevcom-1284546265036988" target="_blank"><img src="/assets/icons/facebook-logo.svg" class="img-contact"/></a>
 <a href="https://www.linkedin.com/in/tiveor/" target="_blank"><img src="/assets/icons/linkedin-logo.svg" class="img-contact"/></a>
+<a href="https://www.youtube.com/channel/UCE23ZfeHW-B-A8T10kzGAXg" target="_blank"><img src="/assets/icons/youtube-logo.svg" class="img-contact"/></a>
 
 
 <div style="color: #999; font-size: 0.7em">Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
