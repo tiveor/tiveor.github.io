@@ -5,7 +5,7 @@ var profile = {
 	web: "AlvaroDev.com",
 	email: "tiveor@gmail.com",
 	location: "Cochabamba, Bolivia",
-	picture: "https://alvarodev.com/assets/me.jpg",
+	picture: "img/profile2.jpg",
 	summary: "10+ years of continuous growth, working with remote teams helping to develop great projects and challenging apps worldwide.",				
 	experience: [
 		{
