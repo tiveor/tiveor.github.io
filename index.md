@@ -2,12 +2,9 @@
 layout: default
 ---
 
-
-
 <div class="img-home-container">
-	<a href="https://www.youtube.com/watch?v=1vPMD3wmaZo" target="_blank">
-		<img src="/assets/home2.jpg" alt="Salar de Uyuni" class="img-home"/>
-	</a>
+	<a href="https://www.youtube.com/watch?v=1vPMD3wmaZo" target="_blank"><img src="/assets/home/home.jpg" alt="Salar de Uyuni" class="img-home"/></a>	
+	<span class="img-home-description">World Biggest Salt Flats, Uyuni - Bolivia</span>
 </div>
 
 <div class="back-home">
@@ -52,8 +49,8 @@ layout: default
 	<img src="/assets/apps/skillstester.png" alt="SWCochabamba" class="img-home-app"/>
 	<span class="box-legend">Skills Tester</span>
 </div>
-
+<br style="clear:both;"/><br/>
 <a href="/projects" style="float:right; font-size: 11px;">See all Projects</a>
-<br/><br style="clear: both;"/>
+<br style="clear: both;"/>
 
 

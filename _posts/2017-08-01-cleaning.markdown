@@ -5,8 +5,9 @@ date:   2017-08-01 23:00:00 -0400
 categories: cleaning
 ---
 
-I'm cleaning out all my garbage literally, physic and digitally from my mind to my PC, so this is being kind of a lot of work since I like to do many things in code, music, investigation, learn things, read a lot, and so on.
-
+I'm cleaning out all my digital garbage from my macbooks, hard-drives and external hard-drives,
+I know that this can be a lot of work since I always has been liked to do many activities in parallel
+like programming, music, learning and reading topics. Some way I'm decrypting myself. <br/><br/>
 
 {% highlight java %}
     public static byte[] decrypt(byte[] encrypted) throws Exception {
@@ -15,13 +16,19 @@ I'm cleaning out all my garbage literally, physic and digitally from my mind to 
         return cipher.doFinal(encrypted);
     }
 {% endhighlight %}
-
-[EncryptorHelper.java](https://raw.githubusercontent.com/tiveor/oneway/master/src/main/java/tive/security/EncryptorHelper.java){:target="_blank"}
-
+[One Way Project](https://github.com/tiveor/oneway){:target="_blank"} - [EncryptorHelper.java](https://raw.githubusercontent.com/tiveor/oneway/master/src/main/java/tive/security/EncryptorHelper.java){:target="_blank"}
 <br/>
-So, this day can be counted as day off. I have many things to put the garbage and put things back from a forgot secret place to a priority list.
 
-
-I think, It would take me awhile, but we'll see.
-
+<p>
+Certainly, I have many things to put in the garbage and some others to restore from a forgotten secret place to a priority list.
+I think, It will take me long time, but we'll see, and I'll be posting here any "valuable" code lost in the shadows.<br/><br/>
+</p>
+<p>
+Since we are talking about cleaning, I'll let you this small video that suggests you how to write clean code and with good book readings.
+</p>
 <iframe width="100%" height="320" src="http://www.youtube.com/embed/aG5ks3de_wQ" frameborder="0" allowfullscreen></iframe>
+<br/>
+<p style="text-align: right">
+Thank you for reading me.<br>
+&Aacute;lvaro Orellana
+</p>

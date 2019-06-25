@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Courses
-permalink: /courses/
+permalink: /courses
 ---
 
 # Kotlin
@@ -25,7 +25,7 @@ permalink: /courses/
 
 <br/>
 
-
+<!--
 # iOS
 <div class="box-course">
 	<a href="../assets/courses/empty.svg" target="_blank">
@@ -114,7 +114,7 @@ permalink: /courses/
 		</div>
 	</div>
 </div>
-
+-->
 <br/>
 
 # Android
@@ -221,6 +221,7 @@ permalink: /courses/
 	</div>
 </div>
 
+<!-- 
 <br/>
 
 # Java
@@ -243,3 +244,4 @@ permalink: /courses/
 	</div>
 </div>
 
+-->

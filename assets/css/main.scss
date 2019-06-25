@@ -7,7 +7,7 @@
 .img-circular {
 	width: 200px;
  	height: 200px;
-	background-image: url('me.jpg');
+	background-image: url('../about/me.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -68,6 +68,31 @@
 	float: left;
 	margin: 0 40px 20px 0;
 	clear: both;	
+}
+
+
+.clean-company {
+	clear: both;
+	padding: 0;
+}
+
+.img-company {
+    margin: 10px 40px 20px 10px;
+    max-height: 90px;
+    max-width: 180px;
+	padding: 10px 30px;
+}
+
+.img-startup {
+    max-width: 240px;
+    max-height: 65px;
+    padding: 10px 15px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	/*border: 1px dashed #ccc;*/
+	/*display: block;*/
+	margin: 5px 0;
 }
 
 .img-course {
@@ -138,6 +163,13 @@
 	background-color: #F6F6F6;	
 }
 
+.box-company {
+	border-top: 1px dashed #ccc;
+	margin: 1px;
+	clear: both;
+	padding: 24px 10px 36px 0;
+}
+
 .box-course {
 	border-top: 1px dashed #ccc;
 	margin: 1px;
@@ -180,8 +212,8 @@
 }
 
 .img-home-app {
-	height: 80px;
-	padding: 15px;
+	height: 70px;
+    padding: 15px;
 }
 
 .home-table {
@@ -195,15 +227,16 @@
 	float:left;
 	text-align: center;
 	border: 1px dashed #ccc;
+    width: 130px;
+    height: 130px;	
 }
 
 .box-legend {
-	background-color: #F3F3F3;
-	border: 1px dashed #ccc;
-	display: block;
-	padding: 10px 20px;
-	font-size: 12px;
-	min-width: 100px;
+    background-color: #F3F3F3;
+    border: 1px dashed #ccc;
+    display: block;
+    padding: 5px 10px;
+    font-size: 0.7em;
 }
 
 .back-home {
@@ -212,6 +245,12 @@
 
 .img-home-container {
 	float: left;
+}
+
+.img-home-description {
+	text-align: center;
+    display: block;
+    font-size: 0.6em;
 }
 
 .img-home {
@@ -233,6 +272,7 @@
 	border-bottom: 1px dashed #ccc;
 	height: 1px;
 	display:block;
+	margin-top: 30px;
 	margin-bottom: 30px;
 }
 

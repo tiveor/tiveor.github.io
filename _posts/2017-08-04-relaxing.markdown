@@ -5,15 +5,9 @@ date:   2017-08-04 18:00:00 -0400
 categories: relaxing
 ---
 
-After 10 years of programming as professional, I'm in a new beginning on my career.
+<iframe width="100%" height="320" src="http://www.youtube.com/embed/zgZqEDdwmvE" frameborder="0" allowfullscreen></iframe>
 
-Let's begin, so:
+A way that I usually relax myself, is when I'm playing the piano. I've started learning from a classical piano school when I was 9 years old. I was playing Bach, Beethoven, Mozart, Chopin, Rachmaninoff so on so for. I had an bolivian-european school, my teacher Nadia was a Conservatory master Russian that grow me to a level that I never thought to get it. When I've graduated I was in the middle of decide if I will study music or engineering. I didn't decide study music taking in count that in Bolivia is not too normal or lucrative do music as a profession. After a family reflection I discovered that like I was loving piano keyboards I was also loving the computer keyboards. So, I finally studied Systems Engineering, that is something too similar to Computer Science in other countries. <br/><br/>
 
-{% highlight ruby %}
-def print_status(coming)
-  puts "Winter is #{coming}"
-end
-print_status('here')
-#=> prints 'Winter is here' to STDOUT.
-{% endhighlight %}
-
+In the previous video I'm playing piano in my clandestine channel. Is clandestine since is not too well seen that I play popular songs from ear for classical teachers and partners, but I developed this ability during the years, that allow me to be in touch at least this way with the music.
+<br/>

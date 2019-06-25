@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Talks
-permalink: /talks/
+permalink: /talks
 exclude: true
 ---
 

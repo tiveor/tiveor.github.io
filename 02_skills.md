@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Skills
-permalink: /skills/
+permalink: /skills
 ---
 
 <div class="box-app">
@@ -90,7 +90,7 @@ permalink: /skills/
 		Android Studio, JDK y Android SDK, JetPack, Gradle, Proguard, KTX,
 		VirtualBox, Genymotion, Git, Source Tree, Analytics, Push Notifications,
 		AsyncTasks, Data Management, GUI and Layouts, Sensors and Geo-Location
-		Backend Services, Multimedia, TTS, STT, Material Design.
+		Backend Services, Multimedia, TTS, STT, Material Design, A/B Testing.
 		<br/><br/>
 
 		Libraries: 
