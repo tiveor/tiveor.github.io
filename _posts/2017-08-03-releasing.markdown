@@ -16,6 +16,10 @@ Release on Fridays, is some of the bad ideas in a project. You won't have reacti
 
 Release must be manageable I mean, the sprints must be small to get a clarity on the changes the team are doing, and it's better do few things well done, that a lot of features not at least smock tested. The version numbering must be reflect the quantity of changes that you or your team are doing.
 
-
+<br/>
+<p style="text-align: right">
+Thank you for reading me.<br>
+&Aacute;lvaro Orellana
+</p>
 
 

@@ -19,3 +19,9 @@ There is something that daily we do naturally. That is <b>prioritize</b>.<br/><b
 So actually, this blog it was not in my top priority list for a long time, but now and in a progressive way, this is taking too many importance since I've decided to be posting frequently and keep disclosing some projects, github repositories, technologies, courses, thoughts, that take my day to day
 
 Don't forget and keep prioritizing your Life. Don't live to live!. Live intentionally!
+
+<br/>
+<p style="text-align: right">
+Thank you for reading me.<br>
+&Aacute;lvaro Orellana
+</p>
