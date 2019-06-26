@@ -26,7 +26,7 @@ I think, It will take me long time, but we'll see, and I'll be posting here any 
 <p>
 Since we are talking about cleaning, I'll let you this small video that suggests you how to write clean code and with good book readings.
 </p>
-<iframe width="100%" height="320" src="http://www.youtube.com/embed/aG5ks3de_wQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="320" src="https://www.youtube.com/embed/aG5ks3de_wQ" frameborder="0" allowfullscreen></iframe>
 <br/>
 <p style="text-align: right">
 Thank you for reading me.<br>
