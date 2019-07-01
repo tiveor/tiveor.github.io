@@ -131,7 +131,7 @@ function genPDF(){
 
 function loadLayout(callback) {
 	const urlParams = new URLSearchParams(window.location.search);
-	var layoutId = urlParams.get('layout');
+	var layoutId = urlParams.get('template');
 	console.log(layoutId);
 
 	if(!layoutId) {
@@ -143,7 +143,7 @@ function loadLayout(callback) {
 
 function loadView(){
 	const urlParams = new URLSearchParams(window.location.search);
-	var styleId = urlParams.get('style');
+	var styleId = urlParams.get('template');
 	console.log(styleId);
 
 	if(!styleId) {

@@ -9,8 +9,12 @@
 	<body>		
 		<div id="panel-left">
 			<h4 style="margin: 0 0 10px 0">RESUMINATOR v.0.8.8</h4>
+			<button onclick="genPDF()">Generate PDF</button>
+			<br/><br/>
+
+			<div style="float:left;">
 			<label>Primary Color:</label>
-			<table id="colors" style="width:125px;">
+			<table id="colors" style="width:100px;">
 				<tr>
 					<td class="color primary-color" style="background-color:#f44336;"></td>
 					<td class="color primary-color" style="background-color:#E91E63"></td>
@@ -39,10 +43,18 @@
 					<td class="color primary-color" style="background-color:#607D8B"></td>
 					<td class="color primary-color" style="background-color:#000000"></td>
 				</tr>	
+				<tr>
+					<td class="color accent-color" style="background-color:#E0BBE4"></td>
+					<td class="color accent-color" style="background-color:#957DAD"></td>
+					<td class="color accent-color" style="background-color:#D291BC"></td>
+					<td class="color accent-color" style="background-color:#FEC8D8"></td>
+					<td class="color accent-color" style="background-color:#FFDFD3"></td>
+				</tr>					
 			</table>
-			<br/>
+			</div>
+			<div style="float:left; margin-left: 20px;">
 			<label>Accent Color:</label>
-			<table id="colors" style="width:125px;">
+			<table id="colors" style="width:100px;">
 				<tr>
 					<td class="color accent-color" style="background-color:#f44336;"></td>
 					<td class="color accent-color" style="background-color:#E91E63"></td>
@@ -79,7 +91,8 @@
 					<td class="color accent-color" style="background-color:#FFDFD3"></td>
 				</tr>									
 			</table>
-
+			</div>				
+			<div style="clear:both; margin-top: 20px;">
 			<br/>
 			<label>Background:</label>
 			<table style="border: 1px solid #ccc; width: 150px;">
@@ -105,12 +118,13 @@
 					<td class="select-background" style="background-color:#e9e9e9"></td>
 				</tr>					
 			</table>
+			</div>
+					
 			<br/><br/>
 			<label>Profile JSON:</label>
 			<textarea id="form_profile" cols=45 rows=15></textarea>
 			<button onclick="updateProfile()">Update Profile</button>
-			<button onclick="prettyFormat()">Pretty Format JSON</button><br/>
-			<button onclick="genPDF()">Generate PDF</button><br/>
+			<button onclick="prettyFormat()">Pretty Format JSON</button>
 		</div>
 		<div id="content">			
 		</div>
