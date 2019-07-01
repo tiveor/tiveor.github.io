@@ -1,0 +1,38 @@
+#panel-left {
+    width: 300px;
+    background-color: #F0F0F0;
+    height: 100%;
+    padding: 30px;
+    position: fixed;
+    overflow-y: scroll;				
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+.color {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    color: white;
+    font-size: 0.5em;
+    text-align: center;
+    padding: 3px;
+}
+#colors{
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+#content {
+    margin-left: 360px
+}
+.select-background {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
