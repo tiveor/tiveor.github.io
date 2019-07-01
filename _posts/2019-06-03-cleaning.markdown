@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Day 1 - Cleaning"
-date:   2017-08-01 23:00:00 -0400
+date:   2019-06-03 06:00:00 -0400
 categories: cleaning
 ---
 
