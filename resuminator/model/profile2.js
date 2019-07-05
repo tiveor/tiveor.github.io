@@ -1,4 +1,4 @@
-var profile = {
+var profile2 = {
 	name: "Lionel Messi",
 	role: "Soccer Player",
 	phone: "+54 9 11 1234-5678",

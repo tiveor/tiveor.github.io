@@ -1,6 +1,8 @@
 //GLOBALS
 var current_primary_color = "#000000";
 var current_accent_color = "#2196F3";
+var current_profile = {};
+var current_styleId = 1;
 
 jQuery.loadCSS = function(href) {
 	console.log(href);
@@ -27,7 +29,7 @@ $(document).ready(function(){
 	loadLayout(function(){
 		loadView();	
 		loadModel(function(){
-			loadFirstProfile();		
+			loadCurrentProfile();		
 		});
 	});
 
@@ -41,7 +43,7 @@ $(document).ready(function(){
 		loadPrimaryColor();
 	});
 
-	$(".select-background ").click(function(){
+	$(".select-background").click(function(){
 
 		var back_image = $(this).css("background-image");
 		console.log(back_image);
@@ -60,11 +62,22 @@ $(document).ready(function(){
 		}
 	});
 
+	$(".select-template").click(function() {		
+		console.log($(this).data("value"));
+		loadTemplateById($(this).data("value"));
+	});
+
+	$(".select-profile").click(function() {
+		console.log($(this).data("value"));
+		loadModelById($(this).data("value"), function(){
+			loadCurrentProfile();
+		});
+	});
 });
 
 function refreshProfile(){
 	loadLayout(function(){
-		loadCV(profile);
+		loadCV(current_profile);
 	});	
 }
 
@@ -88,13 +101,13 @@ function updateProfile() {
 	if(testJSON(new_profile)){
 		new_profile = JSON.parse(new_profile);
 		console.log("NEW PROFILE", new_profile);
-		profile = new_profile;
+		current_profile = new_profile;
 		refreshProfile();
 	}
 }
 
-function loadFirstProfile() {
-	var obj = profile;
+function loadCurrentProfile() {
+	var obj = current_profile;
 	var pretty = JSON.stringify(obj, undefined, 4);
 	$("#form_profile").val(pretty);	
 }
@@ -137,6 +150,10 @@ function loadLayout(callback) {
 	if(!layoutId) {
 		layoutId = 1;
 	}
+	loadLayoutById(layoutId, callback);
+}
+
+function loadLayoutById(layoutId, callback) {
 	console.log("Layout", layoutId);
 	$("#content").load('view/layouts/layout'+layoutId+'.html', callback);
 }
@@ -149,11 +166,27 @@ function loadView(){
 	if(!styleId) {
 		styleId = 1;
 	}
-	console.log("Style", styleId);
-	$.loadCSS('view/css/style'+styleId+'.css');
+	loadViewById(styleId);
 }
 
-function loadModel(callback){
+function loadViewById(styleId) {
+	$('link[href="view/css/style' + current_styleId + '.css"]').remove();
+
+	console.log("Style", styleId);	
+	$.loadCSS('view/css/style'+styleId+'.css');	
+	current_styleId = styleId;
+}
+
+function loadTemplateById(templateId) {	
+	loadLayoutById(templateId, function(){
+		loadViewById(templateId);	
+		loadModel(function(){
+			loadCurrentProfile();		
+		});
+	});	
+}
+
+function loadModel(callback) {
 	const urlParams = new URLSearchParams(window.location.search);
 	var profileId = urlParams.get('profile');
 	console.log(profileId);
@@ -161,14 +194,16 @@ function loadModel(callback){
 	if(!profileId) {
 		profileId = 1;
 	}
-	console.log("Profile", profileId);
+	loadModelById(profileId, callback);
+}
 
-	if (typeof profile == 'undefined'){  
-		$.loadScript('model/profile'+profileId+'.js', function(){
-			loadCV(profile);
-			callback();
-		});
-	}
+function loadModelById(profileId, callback) {
+	console.log("Profile", profileId);
+	$.loadScript('model/profile'+profileId+'.js', function(){
+		current_profile = eval("profile"+profileId);
+		loadCV(current_profile);
+		callback();
+	});	
 }
 
 
@@ -191,11 +226,10 @@ function loadCV(user) {
 	loadAccentColor();
 }
 
-function loadExperience(experiences)
-{
-	var original = $("#experience-mock-data").html();				
+function loadExperience(experiences) {
+	var original = $("#experience-mock-data").html();
+	$("#experience-data").html("");
 	experiences.forEach(function(experience) {
-
 		const bullet = "&#8226; ";
 		var experience_item = original;
 			experience_item = experience_item.replace("experience-role-value", experience.role);
@@ -206,26 +240,25 @@ function loadExperience(experiences)
 			experience_item = experience_item.replace("experience-desc-1-value", bullet + experience.desc_1);
 			experience_item = experience_item.replace("experience-desc-2-value", bullet + experience.desc_2);
 			experience_item = experience_item.replace("experience-desc-3-value", bullet + experience.desc_3);
-			$("#experience-desc").append(experience_item);
+			$("#experience-data").append(experience_item);
 	});
-
 }
 
 function loadTechnologies(technologies)
 {
-	var original = $("#tech-mock-data").html();				
+	var original = $("#tech-mock-data").html();	
+	$("#tech-data").html("");							
 	technologies.forEach(function(technology) {
 		var tech_item = original;
-
 		tech_item = tech_item.replace("tech-section-value", technology.section);
 		tech_item = tech_item.replace("tech-1-value", technology.techs[0].name + appendBullets(technology.techs[0].ranking));
 		tech_item = tech_item.replace("tech-2-value", technology.techs[1].name + appendBullets(technology.techs[1].ranking));
 		tech_item = tech_item.replace("tech-3-value", technology.techs[2].name + appendBullets(technology.techs[2].ranking));
-		$("#tech-desc").append(tech_item);
+		$("#tech-data").append(tech_item);
 	});
 }
 
-function appendBullets(ranking){
+function appendBullets(ranking) {
 	var rank_html = "";
 	if(ranking){			
 		rank_html = "&#9679;&nbsp;".repeat(ranking);
@@ -233,18 +266,17 @@ function appendBullets(ranking){
 	}		
 
 	if(rank_html)
-		return "<br/><div class='bullets'>" + rank_html+"</div>";
+		return "<div class='bullets'>" + rank_html+"</div>";
 
 	return "";
 }
 
 
-function loadProjects(projects)
-{
+function loadProjects(projects) {
 	var original = $("#project-mock-data").html();				
+	$("#project-data").html("");
 	projects.forEach(function(project) {
-		const bullet = "&#8226; ";
-		
+		const bullet = "&#8226; ";		
 		var project_item = original;
 			project_item = project_item.replace("project-name-value", project.name);
 			project_item = project_item.replace("project-date-value", project.date);
@@ -256,35 +288,36 @@ function loadProjects(projects)
 			} else {
 				project_item = project_item.replace("project-desc-1-value", "");
 			}
-			$("#project-desc").append(project_item);
+			$("#project-data").append(project_item);
 	});				
 }
 
 function loadEducation(education)
 {
 	var original = $("#education-mock-data").html();				
+	$("#education-data").html("");
 	education.forEach(function(education) {
 		var education_item = original;
 			education_item = education_item.replace("education-name-value", education.name);
 			education_item = education_item.replace("education-center-value", education.center);
 			education_item = education_item.replace("education-date-value", education.date);
 			education_item = education_item.replace("education-location-value", education.location);
-			$("#education-desc").append(education_item);
+			$("#education-data").append(education_item);
 	});					
 }
 
-function loadAccentColor()
-{
+function loadAccentColor() {
 	$("#role").css("color", current_accent_color);
 	$(".tech-section").css("color", current_accent_color);
 	$(".experience-web").css("color", current_accent_color);
 	$(".project-name").css("color", current_accent_color);
 	$(".education-center").css("color", current_accent_color);	
 	$(".bullets").css("color", current_accent_color);
+	$(".label-info").css("color", current_accent_color);
+	$("#picture").css("border-color", current_accent_color);
 }
 
-function loadPrimaryColor() 
-{
+function loadPrimaryColor() {
 	$("#name").css("color", current_primary_color);
 	$(".experience-role").css("color", current_primary_color);
 	$(".secondary-title").css("color", current_primary_color);
@@ -292,7 +325,7 @@ function loadPrimaryColor()
 	$(".border-title").css("background-color", current_primary_color);
 	$(".tech-data").css("border-color", current_primary_color);
 	$(".tech-data").css("color", current_primary_color);
-
+	$(".border-bottom-title").css("border-color", current_primary_color);
 }
 
 function convertImgToBase64URL(url, callback, outputFormat) {

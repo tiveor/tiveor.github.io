@@ -1,12 +1,14 @@
 #panel-left {
+    border-right: 1px solid #CCC;
     width: 300px;
-    background-color: #F0F0F0;
+    background-color: #FFF;
     height: 100%;
     padding: 30px;
     position: fixed;
-    overflow-y: scroll;				
+    overflow-y: scroll;		
+    font-family: 'Roboto';		
 }
-label {
+#panel-left label {
     display: block;
     margin-bottom: 8px;
     font-size: 0.75em;
@@ -30,9 +32,24 @@ label {
     margin-left: 360px
 }
 .select-background {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    padding: 1px;
+    border: 1px solid #ccc;
+}
+
+.select-template, .select-profile {
     width: 30px;
     height: 30px;
-    cursor: pointer;
-    padding: 3px;
-    border: 1px solid #ccc;
+    cursor: pointer;    
+    padding: 1px;
+    border: 1px solid #ccc;  
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;  
+}
+
+.select-template:hover, .select-profile:hover {
+    background-color: #F0F0F0;
 }

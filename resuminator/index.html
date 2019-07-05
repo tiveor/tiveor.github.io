@@ -8,7 +8,8 @@
 	</head>
 	<body>		
 		<div id="panel-left">
-			<h4 style="margin: 0 0 10px 0">RESUMINATOR v.0.8.8</h4>
+			<h4 style="margin: 0 0 10px 0; position:fixed; background-color: #ffffff">RESUMINATOR v.0.8.8</h4>
+			<br/><br/>
 			<button onclick="genPDF()">Generate PDF</button>
 			<br/><br/>
 
@@ -42,13 +43,6 @@
 					<td class="color primary-color" style="background-color:#9E9E9E"></td>
 					<td class="color primary-color" style="background-color:#607D8B"></td>
 					<td class="color primary-color" style="background-color:#000000"></td>
-				</tr>	
-				<tr>
-					<td class="color accent-color" style="background-color:#E0BBE4"></td>
-					<td class="color accent-color" style="background-color:#957DAD"></td>
-					<td class="color accent-color" style="background-color:#D291BC"></td>
-					<td class="color accent-color" style="background-color:#FEC8D8"></td>
-					<td class="color accent-color" style="background-color:#FFDFD3"></td>
 				</tr>					
 			</table>
 			</div>
@@ -82,49 +76,109 @@
 					<td class="color accent-color" style="background-color:#9E9E9E"></td>
 					<td class="color accent-color" style="background-color:#607D8B"></td>
 					<td class="color accent-color" style="background-color:#000000"></td>
-				</tr>
-				<tr>
-					<td class="color accent-color" style="background-color:#E0BBE4"></td>
-					<td class="color accent-color" style="background-color:#957DAD"></td>
-					<td class="color accent-color" style="background-color:#D291BC"></td>
-					<td class="color accent-color" style="background-color:#FEC8D8"></td>
-					<td class="color accent-color" style="background-color:#FFDFD3"></td>
 				</tr>									
 			</table>
 			</div>				
-			<div style="clear:both; margin-top: 20px;">
+			<div style="clear:both; margin-top: 20px;"></div>
 			<br/>
-			<label>Background:</label>
-			<table style="border: 1px solid #ccc; width: 150px;">
+			<div style="float:left;">
+			<label>Background 1:</label>
+			<table style="width: 104px;">
 				<tr>
 					<td class="select-background" style="background-image: url(view/backgrounds/background0.jpg)"></td>
 					<td class="select-background" style="background-image: url(view/backgrounds/background0.png)"></td>
 					<td class="select-background" style="background-image: url(view/backgrounds/background1.png)"></td>
 					<td class="select-background" style="background-image: url(view/backgrounds/background2.jpg)"></td>
-					<td class="select-background" style="background-image: url(view/backgrounds/background2.png)"></td>					
 				</tr>
 				<tr>
+					<td class="select-background" style="background-image: url(view/backgrounds/background2.png)"></td>					
 					<td class="select-background" style="background-image: url(view/backgrounds/background3.png)"></td>
 					<td class="select-background" style="background-image: url(view/backgrounds/white-waves.png)"></td>
-					<td class="select-background" style="background-image: url(view/backgrounds/fishnets-and-hearts.png)"></td>
-					<td class="select-background" style="background-image: url(view/backgrounds/full-bloom.png)"></td>
-					<td class="select-background" style="background-image: url(view/backgrounds/papyrus.png)"></td>					
+					<td class="select-background" style="background-image: url(view/backgrounds/fishnets-and-hearts.png)"></td>					
 				</tr>
 				<tr>
+					<td class="select-background" style="background-image: url(view/backgrounds/full-bloom.png)"></td>
+					<td class="select-background" style="background-image: url(view/backgrounds/papyrus.png)"></td>					
 					<td class="select-background" style="background-color:#ffffff"></td>					
 					<td class="select-background" style="background-color:#f6f6f6"></td>
+				</tr>
+				<tr>
 					<td class="select-background" style="background-color:#f1f1f1"></td>					
 					<td class="select-background" style="background-color:#ededed"></td>
 					<td class="select-background" style="background-color:#e9e9e9"></td>
+					<td class="select-background" style="background-color:#dedede"></td>					
 				</tr>					
 			</table>
 			</div>
+			<div style="float:left; margin-left: 20px;">
+			<label>Background 2:</label>
+			<table style="width: 104px;">
+				<tr>
+					<td class="select-background" style="background-image: url(view/backgrounds/background0.jpg)"></td>
+					<td class="select-background" style="background-image: url(view/backgrounds/background0.png)"></td>
+					<td class="select-background" style="background-image: url(view/backgrounds/background1.png)"></td>
+					<td class="select-background" style="background-image: url(view/backgrounds/background2.jpg)"></td>
+				</tr>
+				<tr>
+					<td class="select-background" style="background-image: url(view/backgrounds/background2.png)"></td>					
+					<td class="select-background" style="background-image: url(view/backgrounds/background3.png)"></td>
+					<td class="select-background" style="background-image: url(view/backgrounds/white-waves.png)"></td>
+					<td class="select-background" style="background-image: url(view/backgrounds/fishnets-and-hearts.png)"></td>					
+				</tr>
+				<tr>
+					<td class="select-background" style="background-image: url(view/backgrounds/full-bloom.png)"></td>
+					<td class="select-background" style="background-image: url(view/backgrounds/papyrus.png)"></td>					
+					<td class="select-background" style="background-color:#ffffff"></td>					
+					<td class="select-background" style="background-color:#f6f6f6"></td>
+				</tr>
+				<tr>
+					<td class="select-background" style="background-color:#f1f1f1"></td>					
+					<td class="select-background" style="background-color:#ededed"></td>
+					<td class="select-background" style="background-color:#e9e9e9"></td>
+					<td class="select-background" style="background-color:#dedede"></td>					
+				</tr>					
+			</table>
+			</div>
+			
+			<div style="clear:both; margin-top: 20px;"></div>
+			<br/>
+			<label>Template:</label>
+			<table style="width: 240px;">
+				<tr>
+					<td class="select-template" data-value="1">1</td>
+					<td class="select-template" data-value="2">2</td>
+					<td class="select-template" data-value="3">3</td>
+					<td class="select-template" data-value="4">4</td>
+					<td class="select-template" data-value="5">5</td>					
+					<td class="select-template" data-value="6">6</td>
+					<td class="select-template" data-value="7">7</td>
+					<td class="select-template" data-value="8">8</td>					
+				</tr>
+			</table>
+
+			<div style="clear:both; margin-top: 20px;">
+			<label>Profile Data Example:</label>
+			<table style="width: 240px;">
+				<tr>
+					<td class="select-profile" data-value="1">1</td>
+					<td class="select-profile" data-value="2">2</td>
+					<td class="select-profile" data-value="3">3</td>
+					<td class="select-profile" data-value="4">4</td>
+					<td class="select-profile" data-value="5">5</td>					
+					<td class="select-profile" data-value="6">6</td>
+					<td class="select-profile" data-value="7">7</td>
+					<td class="select-profile" data-value="8">8</td>					
+				</tr>
+			</table>
+			</div>			
 					
-			<br/><br/>
+			<div style="clear:both; margin-top: 20px;">
 			<label>Profile JSON:</label>
 			<textarea id="form_profile" cols=45 rows=15></textarea>
 			<button onclick="updateProfile()">Update Profile</button>
 			<button onclick="prettyFormat()">Pretty Format JSON</button>
+			</div>
+			<br/><br/><br/><br/>
 		</div>
 		<div id="content">			
 		</div>

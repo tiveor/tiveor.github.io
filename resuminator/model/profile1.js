@@ -1,4 +1,4 @@
-var profile = {
+var profile1 = {
 	name: "Tony Stark",
 	role: "CEO Stark Industries",
 	phone: "+1 12171991",

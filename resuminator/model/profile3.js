@@ -1,4 +1,4 @@
-var profile = {
+var profile3 = {
     "name": "Jon Snow",
     "role": "Aka Aegon Targaryen",
     "phone": "Send a raven",
