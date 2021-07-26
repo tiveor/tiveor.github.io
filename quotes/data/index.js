@@ -100,3 +100,22 @@ const ppg_tips = [
   "Don't Enable Scumbags",
   "It's Your Life. Share it. Celebrate it. Build it. AND HAVE FUN! "
 ];
+
+const book = `Pragmatic Programmer`;
+
+const DataConfig = () => {
+  const getSource = () => {
+    return book;
+  }
+  const getData = () => {
+    return ppg_tips;
+  }
+  const getDataLength = () => {
+    return ppg_tips.length;
+  }
+  return {
+    getSource,
+    getData,
+    getDataLength,
+  }
+}

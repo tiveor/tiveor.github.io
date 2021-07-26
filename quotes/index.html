@@ -9,10 +9,27 @@
 
 <body>
   <div id="root"></div>
+  <!-- External Libraries -->
   <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  <script type="text/javascript" src="./data.js"></script>
+
+  <!-- Here is the thing -->
+  <script type="text/javascript" src="./data/index.js"></script>
+
+  <script type="text/javascript" src="./utils/window-config.js"></script>
+  <script type="text/javascript" src="./utils/image-util.js"></script>
+  <script type="text/javascript" src="./utils/random-util.js"></script>
+  <script type="text/javascript" src="./utils/array-util.js"></script>
+
+  <script type="text/javascript" src="./managers/layout-manager.js"></script>
+  <script type="text/javascript" src="./managers/card-manager.js"></script>
+
+  <script type="text/babel" src="./components/card-component.js"></script>
+  <script type="text/babel" src="./components/quote-component.js"></script>
+
+  <script type="text/babel" src="./screens/main-screen.js"></script>
+
   <script type="text/babel" src="./index.js"></script>
 </body>
 

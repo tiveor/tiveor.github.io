@@ -13,7 +13,7 @@ body {
   padding: 10px;
 }
 
-.container-quote {
+.container-message {
   position: relative;
 }
 
@@ -39,7 +39,7 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.quote {
+.message {
   font-family: 'PT Sans';
   font-size: 3em;
   font-style: italic;
