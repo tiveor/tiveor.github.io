@@ -1,7 +1,62 @@
 const MainComponent = () => {
 
+  //GLOBALS
   const getData = () => {
     return ppg_tips;
+  }
+
+  const getWidthFrame = () => {
+    return window.innerWidth;
+  }
+
+  const getHeightFrame = () => {
+    return window.innerHeight;
+  }
+
+  const getWidthScreen = () => {
+    return getWidthFrame() || window.screen.width;
+  }
+
+  const getHeightScreen = () => {
+    return getHeightFrame() || window.screen.height;
+  }
+
+  //LOCALS
+  const getMaxWidth = () => {
+    return 1024;
+  }
+
+  const getMaxHeight = () => {
+    return 768;
+  }
+
+  const getWidthCard = () => {
+    return getWidthFrame() > getMaxWidth() ? getMaxWidth() : getWidthFrame();
+  }
+
+  const getHeightCard = () => {
+    return getHeightFrame() > getMaxHeight() ? getMaxHeight() : getHeightFrame();
+  }
+
+  const getRepeat = () => {
+    return getWidthFrame() <= getMaxWidth() || getHeightFrame() <= getMaxHeight();
+  }
+
+  const getRepeatString = () => {
+    return getRepeat() ? 'repeat' : 'no-repeat';
+  }
+
+  const getWidthCardResponsive = () => {
+    return getRepeat() ? getWidthScreen() : getWidthCard();
+  }
+
+  const getHeightCardResponsive = () => {
+    return getRepeat() ? getHeightScreen() : getHeightCard();
+  }
+
+  const getHeightQuote = () => {
+    const fixHeightGap = 100;
+    return (getRepeat() ? getHeightScreen() : getHeightCard()) - fixHeightGap;
   }
 
   const randomIndex = () => {
@@ -30,6 +85,12 @@ const MainComponent = () => {
     return `url("https://source.unsplash.com/random/${width}x${height}")`;
   }
 
+  const getQuote = () => {
+    const tipIndex = getTipIndex();
+    return { index: tipIndex, message: getData()[tipIndex] };
+  }
+
+  const get
 
   const getTipIndex = () => {
     const params = getParams();
@@ -67,33 +128,28 @@ const MainComponent = () => {
     )
   }
 
-  const index = getTipIndex();
-  const maxWidth = 1024;
-  const maxHeight = 768;
-  const repeat = window.innerWidth <= maxWidth || window.innerHeight <= maxHeight;
-
-  const width = window.innerWidth > maxWidth ? maxWidth : window.innerWidth;
-  const height = window.innerHeight > maxHeight ? maxHeight : window.innerHeight;
-  const widthScreen = window.innerWidth || window.screen.width;
-  const heightScreen = window.innerHeight || window.screen.height;
-
-  return (
-    <div className="card" style={{
-      backgroundImage: getBackgroundImage({ width: width, height: height }),
-      backgroundColor: randomGrayColor(),
-      backgroundRepeat: (repeat ? 'repeat' : 'no-repeat'),
-      width: repeat ? widthScreen : width,
-      height: repeat ? heightScreen : height,
-    }}>
-      <div className="glass" style={{
-        width: repeat ? widthScreen : width,
-        height: repeat ? heightScreen : height,
+  const renderCard = ({ quote: quote }) => {
+    return (
+      <div className="card" style={{
+        backgroundImage: getBackgroundImage({ width: getWidthCard(), height: getHeightCard() }),
+        backgroundColor: randomGrayColor(),
+        backgroundRepeat: getRepeatString(),
+        width: getWidthCardResponsive(),
+        height: getHeightCardResponsive(),
       }}>
-        {renderTitle({ tipNumber: index + 1 })}
-        {renderQuote({ height: (repeat ? heightScreen : height) - 100, quote: getData()[index] })}
+        <div className="glass" style={{
+          width: getWidthCardResponsive(),
+          height: getHeightCardResponsive(),
+        }}>
+          {renderTitle({ tipNumber: quote.index + 1 })}
+          {renderQuote({ height: getHeightQuote(), quote: quote.message })}
+        </div>
       </div>
-    </div>
-  )
+    )
+  }
+
+
+  return renderCard({ quote: getQuote() });
 }
 
 ReactDOM.render(
