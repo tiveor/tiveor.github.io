@@ -9,11 +9,11 @@ body {
   margin: 0 auto;
 }
 
-.inner {
+.container-title {
   padding: 10px;
 }
 
-.container {
+.container-quote {
   position: relative;
 }
 
@@ -27,7 +27,6 @@ body {
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
-  line-height: 26.4px;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -42,11 +41,10 @@ body {
 
 .quote {
   font-family: 'PT Sans';
-  font-size: 3em;
+  font-size: 4em;
   font-style: italic;
   font-variant: normal;
   font-weight: 400;
-  line-height: 50px;
   margin: 0;
   position: absolute;
   top: 50%;

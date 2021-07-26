@@ -1,14 +1,24 @@
 const MainComponent = () => {
+
+  const getData = () => {
+    return ppg_tips;
+  }
+
   const randomIndex = () => {
-    return parseInt(Math.random() * ppg_tips.length);
+    return parseInt(Math.random() * getData().length);
   }
 
   const randomColorVar = () => {
     return parseInt(Math.random() * 256);
   }
 
-  const randomColor = () => {
+  const randomColorful = () => {
     return `rgba(${randomColorVar()},${randomColorVar()},${randomColorVar()}, 1)`
+  }
+
+  const randomGrayColor = () => {
+    const u = randomColorVar();
+    return `rgba(${u},${u},${u}, 1)`
   }
 
   const getParams = () => {
@@ -16,16 +26,45 @@ const MainComponent = () => {
     return Object.fromEntries(urlSearchParams.entries());
   }
 
+  const getBackgroundImage = ({ width, height }) => {
+    return `url("https://source.unsplash.com/random/${width}x${height}")`;
+  }
+
 
   const getTipIndex = () => {
     const params = getParams();
     if (params.tip) {
       const tip = parseInt(params.tip);
-      if (tip > 0 && tip <= ppg_tips.length) {
+      if (tip > 0 && tip <= getData().length) {
         return tip - 1;
       }
     }
     return randomIndex();
+  }
+
+  const renderTitle = ({ tipNumber }) => {
+    return (
+      <div className="container-title" >
+        <span className="title">
+          Tip #{tipNumber}
+        </span>
+        <br />
+        <span className="subtitle">
+          Pragmatic Programmer
+        </span>
+        <br />
+      </div>
+    )
+  }
+
+  const renderQuote = ({ height, quote }) => {
+    return (
+      <div className="container-quote" style={{
+        height: height,
+      }}>
+        <span className="quote">{quote}</span>
+      </div>
+    )
   }
 
   const index = getTipIndex();
@@ -40,8 +79,8 @@ const MainComponent = () => {
 
   return (
     <div className="card" style={{
-      backgroundImage: `url("https://source.unsplash.com/random/${width}x${height}")`,
-      backgroundColor: randomColor(),
+      backgroundImage: getBackgroundImage({ width: width, height: height }),
+      backgroundColor: randomGrayColor(),
       backgroundRepeat: (repeat ? 'repeat' : 'no-repeat'),
       width: repeat ? widthScreen : width,
       height: repeat ? heightScreen : height,
@@ -50,21 +89,8 @@ const MainComponent = () => {
         width: repeat ? widthScreen : width,
         height: repeat ? heightScreen : height,
       }}>
-        <div className="inner" >
-          <span className="title">
-            Tip #{index + 1}
-          </span>
-          <br />
-          <span className="subtitle">
-            Pragmatic Programmer
-          </span>
-          <br />
-        </div>
-        <div className="container" style={{
-          height: (repeat ? heightScreen : height) - 100,
-        }}>
-          <span className="quote">{ppg_tips[index]}</span>
-        </div>
+        {renderTitle({ tipNumber: index + 1 })}
+        {renderQuote({ height: (repeat ? heightScreen : height) - 100, quote: getData()[index] })}
       </div>
     </div>
   )
