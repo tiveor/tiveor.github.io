@@ -4,6 +4,9 @@ const MainComponent = () => {
   const getData = () => {
     return ppg_tips;
   }
+  const getDataLength = () => {
+    return ppg_tips.length;
+  }
 
   const getWidthFrame = () => {
     return window.innerWidth;
@@ -59,8 +62,8 @@ const MainComponent = () => {
     return (getRepeat() ? getHeightScreen() : getHeightCard()) - fixHeightGap;
   }
 
-  const randomIndex = () => {
-    return parseInt(Math.random() * getData().length);
+  const randomIndex = (length) => {
+    return parseInt(Math.random() * length);
   }
 
   const randomColorVar = () => {
@@ -82,7 +85,7 @@ const MainComponent = () => {
   }
 
   const getBackgroundImage = ({ width, height }) => {
-    return `url("https://source.unsplash.com/random/${width}x${height}")`;
+    return `https://source.unsplash.com/random/${width}x${height}`;
   }
 
   const getQuote = () => {
@@ -90,17 +93,18 @@ const MainComponent = () => {
     return { index: tipIndex, message: getData()[tipIndex] };
   }
 
-  const get
+  const getParamTipIndex = () => {
+    const params = getParams();
+    return !params.tip ? null : parseInt(params.tip - 1);
+  }
+
+  const isIndexInRange = (index, length) => {
+    return index >= 0 && index < length;
+  }
 
   const getTipIndex = () => {
-    const params = getParams();
-    if (params.tip) {
-      const tip = parseInt(params.tip);
-      if (tip > 0 && tip <= getData().length) {
-        return tip - 1;
-      }
-    }
-    return randomIndex();
+    const index = getParamTipIndex();
+    return index && isIndexInRange(index, getDataLength()) ? index : randomIndex(getDataLength());
   }
 
   const renderTitle = ({ tipNumber }) => {
@@ -131,7 +135,7 @@ const MainComponent = () => {
   const renderCard = ({ quote: quote }) => {
     return (
       <div className="card" style={{
-        backgroundImage: getBackgroundImage({ width: getWidthCard(), height: getHeightCard() }),
+        backgroundImage: `url("${getBackgroundImage({ width: getWidthCard(), height: getHeightCard() })}")`,
         backgroundColor: randomGrayColor(),
         backgroundRepeat: getRepeatString(),
         width: getWidthCardResponsive(),
@@ -147,7 +151,6 @@ const MainComponent = () => {
       </div>
     )
   }
-
 
   return renderCard({ quote: getQuote() });
 }
