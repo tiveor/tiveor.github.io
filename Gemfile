@@ -9,13 +9,10 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "kramdown-parser-gfm"
-gem "jekyll", "3.9.0"
-
+gem "jekyll", "4.3.4"
 gem 'sass', '~> 3.4', '>= 3.4.22'
-
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
-
+gem "minima"
 gem "jekyll-paginate"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
