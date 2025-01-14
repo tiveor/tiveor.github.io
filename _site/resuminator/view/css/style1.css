@@ -1,0 +1,300 @@
+body {
+	background-color: #FFF;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	margin: 0;
+	/* https://www.transparenttextures.com/ */				
+}
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#container {
+	margin: 0 auto;
+	display: block;
+	background-color: #FFF;
+}
+
+#page {
+	text-align: left;
+	display: inline-block;
+	width: 700px;
+	height: 950px;
+	/* border: 1px solid #333; */
+	padding: 30px 40px;
+	background-image: url(../backgrounds/background0.png);	
+	background-color: #FFF;
+}			
+#name {
+	font-size: 2em;				
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#role {
+	font-size: 1em;
+	font-weight:bold;
+}
+#main-data {
+	padding: 30px 0;
+}
+#phone {
+	font-size: 0.65em;
+	float: left;
+	display: inline-block;
+	width: 30%;
+
+	background-image: url(../icons/phone.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+	padding-left: 15px;				
+}
+#email {
+	font-size: 0.65em;
+	float: left;
+	display: inline-block;
+
+	background-image: url(../icons/email.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+	padding-left: 15px;		
+}
+#web {
+	font-size: 0.65em;
+	float: left;
+	display: inline-block;
+	width: 30%;			
+	margin-top: 5px;	
+
+	background-image: url(../icons/web.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+	padding-left: 15px;					
+}						
+#location {
+	font-size: 0.65em;
+	float: left;
+	display: inline-block;
+	margin-top: 5px;
+
+	background-image: url(../icons/location.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+	padding-left: 15px;					
+}			
+#picture {
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000000;
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    float: right;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 0;
+}
+table {
+	width: 100%;
+	border: 0;
+}
+#left-column {
+	padding: 20px 45px 40px 0;
+	width: 60%;
+	vertical-align: top;
+}
+#right-column {
+	padding: 20px 20px 40px 0;
+	width: 40%;
+	vertical-align: top
+}
+.secondary-title {
+	font-size: 1.4em;				
+	font-weight: bold;	
+	text-transform: uppercase;		
+	padding-bottom: 3px;
+}
+
+.border-title {
+	height: 3px;
+	background-color: #000000;
+	margin-bottom: 10px;
+}
+.clear {
+	height: 1px;
+	clear: both;
+}
+#summary-desc {
+	font-size: 0.7em;
+	padding: 10px 0 10px 0;
+}
+
+.line-dashed {
+	height: 1px;
+	background-image: linear-gradient(90deg, #ccc, #ccc 50%, transparent 50%, transparent 100%);
+	background-size: 5px 1px;
+	border: none;		
+}
+
+.space-10 {
+	margin-bottom: 10px;	
+}
+
+.space-20 {
+	margin-bottom: 20px;	
+}
+
+.experience-role {
+	font-size: 1em;
+	font-weight: bold;
+}
+.experience-web {
+	font-size: 0.75em;
+	padding: 5px 0 5px 0;
+}
+.experience-date {
+	float: left;
+	font-size:0.7em;
+	margin-right: 50px;
+
+	background-image: url(../icons/calendar.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+	padding-left: 15px;
+}
+.experience-location {
+	font-size: 0.7em;
+
+	background-image: url(../icons/location.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+	padding-left: 15px;
+	display: inline;
+}
+.experience-main-desc {
+	margin-top: 5px;
+	font-size: 0.8em;
+	clear:both;
+}
+#experience-desc {
+	margin-bottom: 20px;
+}
+.experience-desc-0 {
+	margin: 5px 0 5px 0;
+}
+.experience-desc-1, .experience-desc-2, .experience-desc-3 {
+	font-size: 0.65em;
+	padding: 1px 0;
+}
+.experience-container {
+	padding: 0 0 8px 0;
+}
+.tech-section {
+	font-size: 0.9em;
+	padding: 10px 0;
+	clear:both;
+}
+.tech-1, .tech-2, .tech-3 {
+	font-size: 0.65em;
+	padding: 3px;
+	border: 1px solid #555;
+	float:left;
+	margin-right: 4px;
+	font-weight: bold;
+}
+.tech-container {
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+#tech-desc {
+	margin: 10px 0 20px 0;
+}
+.project-container {
+	margin: 8px 0;
+}
+.project-name {
+	font-size: 0.9em;
+	padding: 8px 0;
+	clear:both;
+	font-weight: bold;
+}
+.project-date {
+	float: left;
+	font-size:0.7em;
+	margin-right: 50px;
+
+	background-image: url(../icons/calendar.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+	padding-left: 15px;				
+}
+.project-location {
+	font-size: 0.7em;
+
+	background-image: url(../icons/location.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+	padding-left: 15px;
+	display: inline;				
+}
+.project-main-desc {
+	margin-top: 5px;
+	font-size: 0.8em;
+	clear:both;
+}
+.project-desc-0 {
+	margin: 5px 0 5px 0;
+}
+.project-desc-1 {
+	font-size: 0.65em;
+	padding: 2px 0 2px 0;
+}
+.education-name {
+	font-size: 1em;
+	font-weight: bold;
+}
+.education-center {
+	font-size: 0.75em;
+	padding: 5px 0 5px 0;
+}
+.education-date {
+	float: left;
+	font-size:0.7em;
+	margin-right: 50px;
+
+	background-image: url(../icons/calendar.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+	padding-left: 15px;				
+}
+.education-location {
+	font-size: 0.7em;
+
+	background-image: url(../icons/location.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+	padding-left: 15px;
+	display: inline;				
+}
+.education-container {
+	padding: 10px 0 8px 0;
+}
+
+.bullets {
+	display: none;
+}

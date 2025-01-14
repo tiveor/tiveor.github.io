@@ -1,0 +1,55 @@
+#panel-left {
+    border-right: 1px solid #CCC;
+    width: 300px;
+    background-color: #FFF;
+    height: 100%;
+    padding: 30px;
+    position: fixed;
+    overflow-y: scroll;		
+    font-family: 'Roboto';		
+}
+#panel-left label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+.color {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    color: white;
+    font-size: 0.5em;
+    text-align: center;
+    padding: 3px;
+}
+#colors{
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+#content {
+    margin-left: 360px
+}
+.select-background {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    padding: 1px;
+    border: 1px solid #ccc;
+}
+
+.select-template, .select-profile {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;    
+    padding: 1px;
+    border: 1px solid #ccc;  
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;  
+}
+
+.select-template:hover, .select-profile:hover {
+    background-color: #F0F0F0;
+}

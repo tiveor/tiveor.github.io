@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-14T01:35:26-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">AlvaroTech.dev</title><subtitle>Personal Page</subtitle><entry><title type="html">Day 5 - Resuminator</title><link href="http://localhost:4000/relaxing/2019/06/28/resuminator.html" rel="alternate" type="text/html" title="Day 5 - Resuminator" /><published>2019-06-28T06:00:00-04:00</published><updated>2019-06-28T06:00:00-04:00</updated><id>http://localhost:4000/relaxing/2019/06/28/resuminator</id><content type="html" xml:base="http://localhost:4000/relaxing/2019/06/28/resuminator.html"><![CDATA[<!--
+<iframe width="100%" height="320" src="https://www.youtube.com/embed/zgZqEDdwmvE" frameborder="0" allowfullscreen></iframe>
+
+I was trying to update my report, but I
+
+<br/>
+<br/>
+<p style="text-align: right">
+Thank you for reading me.<br>
+&Aacute;lvaro Orellana
+</p>
+-->]]></content><author><name></name></author><category term="relaxing" /><summary type="html"><![CDATA[&lt;!–]]></summary></entry><entry><title type="html">Day 3 - Releasing</title><link href="http://localhost:4000/releasing/2019/06/26/releasing.html" rel="alternate" type="text/html" title="Day 3 - Releasing" /><published>2019-06-26T06:00:00-04:00</published><updated>2019-06-26T06:00:00-04:00</updated><id>http://localhost:4000/releasing/2019/06/26/releasing</id><content type="html" xml:base="http://localhost:4000/releasing/2019/06/26/releasing.html"><![CDATA[<p>
+<b>AlvaroDev.com</b> is alive!!!
+</p>
+
+<p>Each time that I have to do a final release on any software product, I like to be very careful to review border cases that usually fails during testing steps. <br /><br />
+By default on Production environment or Master branch I keep a policy that is better for catch errors not showing directly to the end user and it keep working in the adversity. For that reason I usually put some defensive code that means to create default general error pages, notifications in background about errors that are being tracked in the log files, and later making sure that the team next day or hours could work in the necesary hotfixes.
+<br /><br />
+Release on Fridays, is some of the bad ideas in a project. You won’t have reaction capacity.<br /></p>
+
+<p>Release must be manageable I mean, the sprints must be small to get a clarity on the changes the team are doing, and it’s better do few things well done, that a lot of features not at least smock tested. The version numbering must be reflect the quantity of changes that you or your team are doing.</p>
+
+<p><br /></p>
+<p style="text-align: right">
+Thank you for reading me.<br />
+&Aacute;lvaro Orellana
+</p>]]></content><author><name></name></author><category term="releasing" /><summary type="html"><![CDATA[AlvaroDev.com is alive!!!]]></summary></entry><entry><title type="html">Day 4 - Relaxing</title><link href="http://localhost:4000/relaxing/2019/06/26/relaxing.html" rel="alternate" type="text/html" title="Day 4 - Relaxing" /><published>2019-06-26T06:00:00-04:00</published><updated>2019-06-26T06:00:00-04:00</updated><id>http://localhost:4000/relaxing/2019/06/26/relaxing</id><content type="html" xml:base="http://localhost:4000/relaxing/2019/06/26/relaxing.html"><![CDATA[<iframe width="100%" height="320" src="https://www.youtube.com/embed/zgZqEDdwmvE" frameborder="0" allowfullscreen=""></iframe>
+
+<p>A way that I usually relax myself, is when I’m playing the piano. I’ve started learning from a classical piano school when I was 9 years old. I was playing Bach, Beethoven, Mozart, Chopin, Rachmaninoff so on so for. I had an bolivian-european school, my teacher Nadia was a Conservatory master Russian that grow me to a level that I never thought to get it. When I’ve graduated I was in the middle of decide if I will study music or engineering. I didn’t decide study music taking in count that in Bolivia is not too normal or lucrative do music as a profession. After a family reflection I discovered that like I was loving piano keyboards I was also loving the computer keyboards. So, I finally studied Systems Engineering, that is something too similar to Computer Science in other countries. <br /><br /></p>
+
+<p>In the previous video I’m playing piano in my clandestine channel. Is clandestine since is not too well seen that I play popular songs from ear for classical teachers and partners, but I developed this ability during the years, that allow me to be in touch at least this way with the music.
+<br />
+<br /></p>
+<p style="text-align: right">
+Thank you for reading me.<br />
+&Aacute;lvaro Orellana
+</p>]]></content><author><name></name></author><category term="relaxing" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Day 2 - Prioritizing</title><link href="http://localhost:4000/prioritizing/2019/06/17/prioritizing.html" rel="alternate" type="text/html" title="Day 2 - Prioritizing" /><published>2019-06-17T06:00:00-04:00</published><updated>2019-06-17T06:00:00-04:00</updated><id>http://localhost:4000/prioritizing/2019/06/17/prioritizing</id><content type="html" xml:base="http://localhost:4000/prioritizing/2019/06/17/prioritizing.html"><![CDATA[<p>There is something that daily we do naturally. That is <b>prioritize</b>.<br /><br /></p>
+
+<p style="text-align: center">
+<iframe width="100%" height="320" src="https://www.youtube.com/embed/UF8uR6Z6KLc" frameborder="0" allowfullscreen=""></iframe>
+
+<i>“Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of other's opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.”</i><br />
+― Steve Jobs
+</p>
+<p><br /></p>
+
+<p>So actually, this blog it was not in my top priority list for a long time, but now and in a progressive way, this is taking too many importance since I’ve decided to be posting frequently and keep disclosing some projects, github repositories, technologies, courses, thoughts, that take my day to day</p>
+
+<p>Don’t forget and keep prioritizing your Life. Don’t live to live!. Live intentionally!</p>
+
+<p><br /></p>
+<p style="text-align: right">
+Thank you for reading me.<br />
+&Aacute;lvaro Orellana
+</p>]]></content><author><name></name></author><category term="prioritizing" /><summary type="html"><![CDATA[There is something that daily we do naturally. That is prioritize.]]></summary></entry><entry><title type="html">Day 1 - Cleaning</title><link href="http://localhost:4000/cleaning/2019/06/03/cleaning.html" rel="alternate" type="text/html" title="Day 1 - Cleaning" /><published>2019-06-03T06:00:00-04:00</published><updated>2019-06-03T06:00:00-04:00</updated><id>http://localhost:4000/cleaning/2019/06/03/cleaning</id><content type="html" xml:base="http://localhost:4000/cleaning/2019/06/03/cleaning.html"><![CDATA[<p>I’m cleaning out all my digital garbage from my macbooks, hard-drives and external hard-drives,
+I know that this can be a lot of work since I always has been liked to do many activities in parallel
+like programming, music, learning and reading topics. Some way I’m decrypting myself. <br /><br /></p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">byte</span><span class="o">[]</span> <span class="nf">decrypt</span><span class="o">(</span><span class="kt">byte</span><span class="o">[]</span> <span class="n">encrypted</span><span class="o">)</span> <span class="kd">throws</span> <span class="nc">Exception</span> <span class="o">{</span>
+        <span class="nc">Cipher</span> <span class="n">cipher</span> <span class="o">=</span> <span class="nc">Cipher</span><span class="o">.</span><span class="na">getInstance</span><span class="o">(</span><span class="n">algorithm</span><span class="o">);</span>
+        <span class="n">cipher</span><span class="o">.</span><span class="na">init</span><span class="o">(</span><span class="nc">Cipher</span><span class="o">.</span><span class="na">DECRYPT_MODE</span><span class="o">,</span> <span class="n">getSecret</span><span class="o">());</span>
+        <span class="k">return</span> <span class="n">cipher</span><span class="o">.</span><span class="na">doFinal</span><span class="o">(</span><span class="n">encrypted</span><span class="o">);</span>
+    <span class="o">}</span></code></pre></figure>
+
+<p><a href="https://github.com/tiveor/oneway" target="_blank">One Way Project</a> - <a href="https://raw.githubusercontent.com/tiveor/oneway/master/src/main/java/tive/security/EncryptorHelper.java" target="_blank">EncryptorHelper.java</a>
+<br /></p>
+
+<p>
+Certainly, I have many things to put in the garbage and some others to restore from a forgotten secret place to a priority list.
+I think, It will take me long time, but we'll see, and I'll be posting here any "valuable" code lost in the shadows.<br /><br />
+</p>
+<p>
+Since we are talking about cleaning, I'll let you this small video that suggests you how to write clean code and with good book readings.
+</p>
+<iframe width="100%" height="320" src="https://www.youtube.com/embed/aG5ks3de_wQ" frameborder="0" allowfullscreen=""></iframe>
+<p><br /></p>
+<p style="text-align: right">
+Thank you for reading me.<br />
+&Aacute;lvaro Orellana
+</p>]]></content><author><name></name></author><category term="cleaning" /><summary type="html"><![CDATA[I’m cleaning out all my digital garbage from my macbooks, hard-drives and external hard-drives, I know that this can be a lot of work since I always has been liked to do many activities in parallel like programming, music, learning and reading topics. Some way I’m decrypting myself.]]></summary></entry><entry><title type="html">Day 0 - Beginning</title><link href="http://localhost:4000/beginning/2019/06/02/beginning.html" rel="alternate" type="text/html" title="Day 0 - Beginning" /><published>2019-06-02T06:00:00-04:00</published><updated>2019-06-02T06:00:00-04:00</updated><id>http://localhost:4000/beginning/2019/06/02/beginning</id><content type="html" xml:base="http://localhost:4000/beginning/2019/06/02/beginning.html"><![CDATA[<p>After 10 years programming as professional, I’m starting a new challenge with the creation of this Personal Blog.
+So, in this blog, I’ll be providing interesting topics about programming, code and some thoughts that I think could be helpful with all folks and followers.</p>
+
+<p>Finally, Let’s begin, so:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_status</span><span class="p">(</span><span class="n">coming</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Winter is </span><span class="si">#{</span><span class="n">coming</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_status</span><span class="p">(</span><span class="s1">'here'</span><span class="p">)</span></code></pre></figure>
+
+<p><br /></p>
+<p style="text-align: right">
+Thank you for reading me.<br />
+&Aacute;lvaro Orellana
+</p>]]></content><author><name></name></author><category term="beginning" /><summary type="html"><![CDATA[After 10 years programming as professional, I’m starting a new challenge with the creation of this Personal Blog. So, in this blog, I’ll be providing interesting topics about programming, code and some thoughts that I think could be helpful with all folks and followers.]]></summary></entry></feed>
