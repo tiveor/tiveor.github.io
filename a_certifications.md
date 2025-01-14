@@ -115,12 +115,3 @@ exclude: true
 		<a href="https://www.coursera.org/account/accomplishments/verify/7Q7DGSH43C" target="_blank">See it on Coursera.org</a>
 	</div>
 </div>
-
-
-
-
-
-
-
-
-

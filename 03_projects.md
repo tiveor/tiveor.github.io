@@ -4,8 +4,6 @@ title: Projects
 permalink: /projects
 ---
 
-
-
 <div class="box-app">
 	<img src="/assets/apps/skillstester.png" alt="Skills Tester" class="img-app"/>
 	<h4 class="title-app">Skills Tester<span class="year-app">Released on Jan, 2017</span></h4>
@@ -112,11 +110,3 @@ permalink: /projects
 		<a href="https://play.google.com/store/apps/details?id=com.tivesoft.memorytrainer" target="_blank"><img src="/assets/icons/googleplay.png" alt="Get it On Google Play Store" class="icon-app"/></a>
 	</div>
 </div>
-
-
-
-
-
-
-
-

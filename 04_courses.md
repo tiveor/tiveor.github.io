@@ -5,6 +5,7 @@ permalink: /courses
 ---
 
 # Kotlin
+
 <div class="box-course">
 	<a href="../assets/courses/empty.svg" target="_blank">
 	<img src="/assets/courses/empty.svg" alt="Kotlin" class="img-course" style="background-color: #7870E2"></a>	
@@ -29,13 +30,13 @@ permalink: /courses
 # iOS
 <div class="box-course">
 	<a href="../assets/courses/empty.svg" target="_blank">
-	<img src="/assets/courses/empty.svg" alt="Web Basic" class="img-course" style="background-color: #313131"></a>	
+	<img src="/assets/courses/empty.svg" alt="Web Basic" class="img-course" style="background-color: #313131"></a>
 	<div class="desc-course">
 		<span class="title-course"><span class="year-app">Coming Soon</span>iOS</span>
 			- Basic<br/>
 			- Intermediate<br/>
 			- Advanced<br/>
-			- Patterns<br/>	
+			- Patterns<br/>
 		<div class="course-links">
 			<a href="https://github.com/tiveor/ios-basic" target="_blank"><img src="/assets/icons/github-logo.svg" class="img-course-link"/></a>
 			<a href="https://github.com/tiveor/ios-intermediate" target="_blank"><img src="/assets/icons/github-logo.svg" class="img-course-link"/></a>
@@ -47,13 +48,13 @@ permalink: /courses
 
 <div class="box-course">
 	<a href="../assets/courses/empty.svg" target="_blank">
-	<img src="/assets/courses/empty.svg" alt="Swift Language" class="img-course" style="background-color: #F89E40"></a>	
+	<img src="/assets/courses/empty.svg" alt="Swift Language" class="img-course" style="background-color: #F89E40"></a>
 	<div class="desc-course">
 		<span class="title-course"><span class="year-app">Coming Soon</span>Swift Language</span>
 			- Object Oriented<br/>
 			- Functional Programming<br/>
-			- Types<br/>			
-			- iOS & Playground<br/>			
+			- Types<br/>
+			- iOS & Playground<br/>
 			<br/>
 		<div class="course-links">
 			<a href="https://github.com/tiveor/swift-basic" target="_blank"><img src="/assets/icons/github-logo.svg" class="img-course-link"/></a>
@@ -66,14 +67,14 @@ permalink: /courses
 # Ruby
 <div class="box-course">
 	<a href="../assets/courses/empty.svg" target="_blank">
-	<img src="/assets/courses/empty.svg" alt="Ruby on Rails Basic" class="img-course" style="background-color: #F05336"></a>	
+	<img src="/assets/courses/empty.svg" alt="Ruby on Rails Basic" class="img-course" style="background-color: #F05336"></a>
 	<div class="desc-course">
 		<span class="title-course"><span class="year-app">Coming Soon</span>Ruby on Rails</span>
 			- Basic<br/>
 			- Intermediate<br/>
 			- Advanced<br/>
 			- Patterns<br/>
-			- Real World<br/>			
+			- Real World<br/>
 		<div class="course-links">
 			<a href="https://github.com/tiveor/ror-basic" target="_blank"><img src="/assets/icons/github-logo.svg" class="img-course-link"/></a>
 			<a href="https://github.com/tiveor/ror-intermediate" target="_blank"><img src="/assets/icons/github-logo.svg" class="img-course-link"/></a>
@@ -84,14 +85,14 @@ permalink: /courses
 
 <div class="box-course">
 	<a href="../assets/courses/empty.svg" target="_blank">
-	<img src="/assets/courses/empty.svg" alt="Web Basic" class="img-course" style="background-color: #F05336"></a>	
+	<img src="/assets/courses/empty.svg" alt="Web Basic" class="img-course" style="background-color: #F05336"></a>
 	<div class="desc-course">
 		<span class="title-course"><span class="year-app">Coming Soon</span>Web Basic</span>
 			- HTML - DOM <br/>
 			- CSS - Sass - Less<br/>
 			- Javascript - Angular - React <br/>
 			- GUI Design<br/>
-			- Material Design<br/>			
+			- Material Design<br/>
 		<div class="course-links">
 			<a href="https://github.com/tiveor/web-basic" target="_blank"><img src="/assets/icons/github-logo.svg" class="img-course-link"/></a>
 		</div>
@@ -101,13 +102,13 @@ permalink: /courses
 
 <div class="box-course">
 	<a href="../assets/courses/empty.svg" target="_blank">
-	<img src="/assets/courses/empty.svg" alt="Ruby Language" class="img-course" style="background-color: #F05336"></a>	
+	<img src="/assets/courses/empty.svg" alt="Ruby Language" class="img-course" style="background-color: #F05336"></a>
 	<div class="desc-course">
 		<span class="title-course"><span class="year-app">Coming Soon</span>Ruby Language</span>
 			- Fundamentals<br/>
 			- Structure<br/>
-			- Lambdas<br/>			
-			- TDD & BDD<br/>			
+			- Lambdas<br/>
+			- TDD & BDD<br/>
 			<br/>
 		<div class="course-links">
 			<a href="https://github.com/tiveor/ruby-basic" target="_blank"><img src="/assets/icons/github-logo.svg" class="img-course-link"/></a>
@@ -118,6 +119,7 @@ permalink: /courses
 <br/>
 
 # Android
+
 <div class="box-course">
 	<a href="../assets/courses/empty.svg" target="_blank">
 	<img src="/assets/courses/empty.svg" alt="Android Patterns" class="img-course" style="background-color: #78C257"/></a>	
@@ -133,7 +135,6 @@ permalink: /courses
 		</div>
 	</div>
 </div>
-
 
 <div class="box-course">
 	<a href="../assets/courses/android-jetpack.svg" target="_blank">
@@ -202,6 +203,7 @@ permalink: /courses
 <br/>
 
 # Javascript
+
 <div class="box-course">
 	<a href="../assets/courses/empty.svg" target="_blank">
 	<img src="/assets/courses/empty.svg" alt="Java" class="img-course" style="background-color: #F8DC3A"></a>
@@ -221,7 +223,7 @@ permalink: /courses
 	</div>
 </div>
 
-<!-- 
+<!--
 <br/>
 
 # Java
